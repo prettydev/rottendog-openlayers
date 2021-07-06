@@ -113,9 +113,9 @@ function MapWrapper(props) {
   return (      
     <div>
       
-      <div ref={mapElement} className="map-container"></div>
+      <div ref={mapElement} className="w-full h-screen"></div>
       
-      <div className="clicked-coord-label">
+      <div className="right-0 bottom-0 absolute bg-white p-2 rounded-md text-red-500">
         <p>{ (selectedCoord) ? toStringXY(selectedCoord, 5) : '' }</p>
       </div>
 

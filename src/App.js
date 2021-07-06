@@ -1,5 +1,3 @@
-import './App.css';
-
 // react
 import React, { useState, useEffect } from 'react';
 
@@ -40,9 +38,8 @@ function App() {
   },[])
   
   return (
-    <div className="App">
-      
-      <div className="app-label">
+    <div className="text-center w-full h-full">
+      <div className="w-1/2 bg-white mx-auto overflow-auto top-0 left-0 right-0 z-10 absolute text-blue-500">
         <p>React Functional Components with OpenLayers Example</p>
         <p>Click the map to reveal location coordinate via React State</p>
       </div>
